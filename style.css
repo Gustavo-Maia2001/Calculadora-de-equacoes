@@ -1,0 +1,195 @@
+
+.abertura {
+	background: url(img/bg.jpg);
+	padding: 70px;
+}
+.frasedeabertura {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0px;
+	color: white;
+	font-family: "papyrus";
+}
+
+nav {
+	text-align: center;
+	margin-top: 20px;
+	right: 10px;
+	font-family: "papyrus";
+	margin-bottom: 0;
+}
+
+nav li {
+	display: inline;
+	margin-left: 15px;
+}
+
+nav a {
+	color:white;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: green;
+	text-decoration: underline;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+.equacoes {
+	padding: 15px;
+}
+.tipo {
+	margin-top: 15px;
+	font-size: 30px;
+	text-align: center;
+
+}
+
+.imglado {
+	text-align: left;
+}
+
+.etipos {
+	text-align: center;
+	margin-top: 10px;
+
+}
+
+.etipos li {
+	margin: 20px;
+	font-size: 20px;
+	display: inline-block;
+	padding: 15px;
+	border: solid;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
+.etipos li a {
+	text-decoration: none;
+	font-color: black;
+}
+
+.etipos li:hover {
+	border-color: green;
+	transform: scale(1.1);
+
+}
+
+.etipos li:hover h2{
+	font-size: 25px;
+}
+
+li p {
+	font-size: 20px;
+	padding: 10px;
+}
+
+footer {
+	text-align: center;
+	padding:55px;
+	background: url("img/background.jpg"); 
+}
+
+.copyright {
+	color: #FFFFFF;
+
+}
+
+.linkedin {
+	color:white;
+}
+
+
+/* estilo da equação de 2grau */
+
+.body {
+	width: 100%;
+}
+
+.identificacao {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 15px;
+	font-family: "papyrus";
+}
+
+.calcular {
+	margin-top: 15px;
+	font-size: 30px;
+	text-align: center;
+
+}
+
+.exemplificacao {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 22px;
+}
+
+.valEx {
+	text-align: center;
+
+}
+.valex li {
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.chama {
+	font-size: 25px;
+	margin-top: 1em;
+	font-family: "papyrus";
+	margin-bottom: 1em;
+}
+
+.inputVar {
+	position: center;
+	display: block;
+	margin-bottom: 1em;
+}
+
+.button {
+	padding: 15px 0;
+	background: green;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	border: none;
+	border-radius: 10px;
+	transition: 1s all;
+	cursor: pointer;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	padding: 0.5em;
+}
+
+.button:hover {
+	background: darkgreen;
+	transform: scale(1.1);
+}
+
+/* #tabela-resultados {
+	margin-left: 0%;
+	width: 150%;
+} */
+
+td, th {
+	padding: .7em;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+th{
+	font-weight: bold;
+	background-color: #EEE;
+}
+
