@@ -1,6 +1,6 @@
 
 .abertura {
-	background: url(img/bg.jpg);
+	background: url(bg.jpg);
 	padding: 70px;
 }
 .frasedeabertura {
@@ -94,7 +94,7 @@ li p {
 footer {
 	text-align: center;
 	padding:55px;
-	background: url("img/background.jpg"); 
+	background: url("background.jpg"); 
 }
 
 .copyright {
